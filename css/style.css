@@ -1,6 +1,4 @@
-/*
-   Variáveis
-*/
+/* Variáveis */
 
 :root {
     --main-color: #407BFF;
@@ -13,9 +11,7 @@
     --line-input: #D9D9D9;
 }
 
-/*
-   Fontes
-*/
+/* Fontes */
 
 @font-face {
     font-family: Poppins-Regular;
@@ -37,9 +33,7 @@
     src: url('../fonts/Poppins-SemiBold.ttf')
 }
 
-/*
-    Zerar estilos
-*/
+/* Zerar estilos */
 
 * {
     margin: 0;
@@ -68,9 +62,7 @@ button:hover {
     cursor: pointer;
 }
 
-/*
-  Utilitários
-*/
+/* Utilitários */
 
 .text1 {
     font-family: Poppins-Regular;
@@ -106,24 +98,13 @@ button:hover {
     margin-left: 50px;
 }
 
-/*
-Login
-*/
+/* Login */
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.container-login {
-    width: 100%;
-    min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    background-color: var(--white-color);
+    height: 100vh;
 }
 
 .wrap-login {
@@ -132,9 +113,7 @@ Login
     background-color: var(--white-color);
 }
 
-/*
-Formulário
-*/
+/* Formulário */
 
 .login-form {
     width: 100%
@@ -149,9 +128,7 @@ Formulário
     text-align: center;
 }
 
-/*
-Input
-*/
+/* Input */
 
 .wrap-input {
     width: 100%;
@@ -227,9 +204,7 @@ Input
     width: 100%;
 }
 
-/*
-Botão
-*/
+/* Botão */
 
 .container-login-form-btn {
     width: 100%;
@@ -258,9 +233,7 @@ Botão
     background-color: var(--highligth-text);
 }
 
-/*
-Links = Login utils
-*/
+/* Links = Login utils */
 
 a {
     font-family: Poppins-Regular;
